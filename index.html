@@ -75,10 +75,11 @@
         .card-hover {
             transition: all 0.3s ease;
         }
-         @media (prefers-color-scheme: dark) {
-        body {
+        @media (prefers-color-scheme: dark) {
+          body {
             background-color: white !important;
             color: black !important;
+          }
         }
         
         .card-hover:hover {
@@ -225,15 +226,7 @@
             transition: all 0.3s ease;
         }
 
-        .dark-mode {
-            background-color: #1a202c;
-            color: #e2e8f0;
-        }
-
-        .dark-mode .bg-white {
-            background-color: #2d3748 !important;
-            color: #e2e8f0 !important;
-        }
+        
 
         /* Responsive image handling */
         .profile-image {
@@ -593,37 +586,36 @@
                     </div>
                 </div>
 
-                <!-- Soft Skills -->
-                <div class="bg-white p-6 rounded-lg shadow-lg border-2 border-purple-200 card-hover">
-                    <h3 class="text-xl font-semibold mb-6 gradient-text">Soft Skills</h3>
-                    <div class="space-y-4 text-slate-700">
-                        <div class="flex items-center skill-item">
-                            <span class="w-3 h-3 bg-blue-500 rounded-full mr-3 animate-pulse-slow"></span>
-                            <span class="font-medium">Problem-Solving</span>
-                        </div>
-                        <div class="flex items-center skill-item">
-                            <span class="w-3 h-3 bg-green-500 rounded-full mr-3 animate-pulse-slow"></span>
-                            <span class="font-medium">Critical Thinking</span>
-                        </div>
-                        <div class="flex items-center skill-item">
-                            <span class="w-3 h-3 bg-purple-500 rounded-full mr-3 animate-pulse-slow"></span>
-                            <span class="font-medium">Communication (Verbal & Written)</span>
-                        </div>
-                        <div class="flex items-center skill-item">
-                            <span class="w-3 h-3 bg-orange-500 rounded-full mr-3 animate-pulse-slow"></span>
-                            <span class="font-medium">Adaptability & Learning Agility</span>
-                        </div>
-                        <div class="flex items-center skill-item">
-                            <span class="w-3 h-3 bg-red-500 rounded-full mr-3 animate-pulse-slow"></span>
-                            <span class="font-medium">Teamwork & Collaboration</span>
-                        </div>
-                        <div class="flex items-center skill-item">
-                            <span class="w-3 h-3 bg-cyan-500 rounded-full mr-3 animate-pulse-slow"></span>
-                            <span class="font-medium">Attention to Detail</span>
-                        </div>
-                    </div>
-                </div>
-
+               <!-- Soft Skills -->
+<div class="bg-white p-6 rounded-lg shadow-lg border-2 border-purple-200 card-hover">
+    <h3 class="text-xl font-semibold mb-6 gradient-text">Soft Skills</h3>
+    <div class="space-y-2 text-slate-700">
+        <p class="flex items-center">
+            <span class="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
+            <span class="text-blue-600 font-semibold">Problem-Solving</span> &nbsp ability to analyze complex issues
+        </p>
+        <p class="flex items-center">
+            <span class="w-2 h-2 bg-green-600 rounded-full mr-3"></span>
+            <span class="text-green-600 font-semibold">Critical Thinking</span> &nbsp evaluating information objectively
+        </p>
+        <p class="flex items-center">
+            <span class="w-2 h-2 bg-purple-600 rounded-full mr-3"></span>
+            <span class="text-purple-600 font-semibold">Communication</span>&nbsp clear verbal and written expression
+        </p>
+        <p class="flex items-center">
+            <span class="w-2 h-2 bg-orange-600 rounded-full mr-3"></span>
+            <span class="text-orange-600 font-semibold">Adaptability</span> &nbsp quickly adjusting to new challenges
+        </p>
+        <p class="flex items-center">
+            <span class="w-2 h-2 bg-red-500 rounded-full mr-3"></span>
+            <span class="text-red-500 font-semibold">Teamwork</span>&nbsp collaborating effectively in groups
+        </p>
+        <p class="flex items-center">
+            <span class="w-2 h-2 bg-cyan-500 rounded-full mr-3"></span>
+            <span class="text-cyan-500 font-semibold">Attention to Detail</span>&nbsp meticulous focus on accuracy
+        </p>
+    </div>
+</div>
                 <!-- Tools & Technologies -->
                 <div class="bg-white p-6 rounded-lg shadow-lg border-2 border-orange-200 card-hover">
                     <h3 class="text-xl font-semibold mb-6 gradient-text">Tools & Technologies</h3>
